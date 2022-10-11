@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b8c1d63-8df3-41c9-92e3-0bddd13ca7ab" name="Changes" comment="Sprint_4-first commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6b8c1d63-8df3-41c9-92e3-0bddd13ca7ab" name="Changes" comment="Sprint_4-second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/PageObject/ScooterMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/PageObject/ScooterMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/PageObject/ScooterOrderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/PageObject/ScooterOrderForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestScooterMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScooterMainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestScooterOrderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScooterOrderForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665347762476</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sprint_4-second commit">
+      <created>1665528995705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665528995705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sprint_4-first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprint_4-first commit" />
+    <MESSAGE value="Sprint_4-second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprint_4-second commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

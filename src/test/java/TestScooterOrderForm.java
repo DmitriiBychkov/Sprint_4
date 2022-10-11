@@ -27,10 +27,7 @@ public class TestScooterOrderForm {
     public void enterOrderInMiddle() {
         // проверка наличия кнопки "Заказать" в хедере
         objScooterOrderForm.isHeaderOrderButtonPresent();
-        //найти кнопку "Заказать" в блоке "Как это работает"
-//        WebElement element = driver.findElement(By.cssSelector("div.Home_FinishButton__1_cWm > button.Button_Middle__1CSJM"));
-        //скролл до кнопки
-//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
+        //найти кнопку "Заказать" в блоке "Как это работает" и скролл до кнопки
         objScooterOrderForm.findMiddleOrderButton();
         // проверка наличия кнопки "Заказать" в блоке "Как это работает"
         objScooterOrderForm.isOrderButtonMiddlePresent();
