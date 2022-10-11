@@ -2,10 +2,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import ru.yandex.praktikum.PageObject.ScooterOrderForm;
@@ -31,9 +28,10 @@ public class TestScooterOrderForm {
         // проверка наличия кнопки "Заказать" в хедере
         objScooterOrderForm.isHeaderOrderButtonPresent();
         //найти кнопку "Заказать" в блоке "Как это работает"
-        WebElement element = driver.findElement(By.cssSelector("div.Home_FinishButton__1_cWm > button.Button_Middle__1CSJM"));
+//        WebElement element = driver.findElement(By.cssSelector("div.Home_FinishButton__1_cWm > button.Button_Middle__1CSJM"));
         //скролл до кнопки
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
+//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
+        objScooterOrderForm.findMiddleOrderButton();
         // проверка наличия кнопки "Заказать" в блоке "Как это работает"
         objScooterOrderForm.isOrderButtonMiddlePresent();
         // клик на "Заказать" в блоке "Как это работает"

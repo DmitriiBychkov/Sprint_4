@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b8c1d63-8df3-41c9-92e3-0bddd13ca7ab" name="Changes" comment="">
+    <list default="true" id="6b8c1d63-8df3-41c9-92e3-0bddd13ca7ab" name="Changes" comment="Sprint_4-first commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/PageObject/ScooterMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/PageObject/ScooterMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/PageObject/ScooterOrderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/PageObject/ScooterOrderForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestScooterMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScooterMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestScooterOrderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScooterOrderForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="dmitrii bychkov &lt;bychkovdvjava@yandex.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -32,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/DNS/IdeaProjects/Sprint_4",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DNS/IdeaProjects/Sprint_4&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.TestScooterMainPage.checkSixthQuestionTwoStringsEqual">
+}</component>
+  <component name="RunManager" selected="JUnit.TestScooterOrderForm">
     <configuration name="All in Sprint_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_4" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,10 +102,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestScooterMainPage.checkSixthQuestionTwoStringsEqual" />
-        <item itemvalue="JUnit.TestScooterMainPage" />
-        <item itemvalue="JUnit.All in Sprint_4" />
         <item itemvalue="JUnit.TestScooterOrderForm" />
+        <item itemvalue="JUnit.TestScooterMainPage" />
+        <item itemvalue="JUnit.TestScooterMainPage.checkSixthQuestionTwoStringsEqual" />
+        <item itemvalue="JUnit.All in Sprint_4" />
         <item itemvalue="JUnit.TestScooterOrderForm.enterOrderInHeader" />
       </list>
     </recent_temporary>
@@ -110,6 +119,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664992301316</updated>
     </task>
+    <task id="LOCAL-00001" summary="Sprint_4-first commit">
+      <created>1665347762476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665347762476</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +139,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sprint_4-first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprint_4-first commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

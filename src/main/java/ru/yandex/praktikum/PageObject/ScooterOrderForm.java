@@ -1,8 +1,6 @@
 package ru.yandex.praktikum.PageObject;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -62,8 +60,6 @@ public class ScooterOrderForm {
 
     //    Окно "Заказ оформлен"
     private final static By PROCESSED_WINDOW = By.xpath(".//div[2]/div[5]/div[1]");
-    //    Кнопка "Посмотреть статус"
-    private final static By CHECK_STATUS_BUTTON = By.xpath(".//div[2]/div[5]/div[2]/button");
 
     // метод открытия тестовой страницы
     public ScooterOrderForm open() {
@@ -97,6 +93,12 @@ public class ScooterOrderForm {
     // метод проверки наличия кнопки "Заказать" в блоке "Как это работает"
     public boolean isOrderButtonMiddlePresent() {
         return driver.findElement(MIDDLE_ORDER_BUTTON).isEnabled();
+    }
+
+    //метод поиска кнопки "Заказать" в блоке "Как это работает" и скролла до него
+    public void findMiddleOrderButton() {
+        WebElement element = driver.findElement(MIDDLE_ORDER_BUTTON);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
     }
 
     // метод клика на "Заказать" в блоке "Как это работает"
